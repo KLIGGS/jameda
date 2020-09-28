@@ -1,5 +1,5 @@
 # Jameda Drupal Block Module Videochat
-Drupal 8 / 9 Module with Jameda Widget for video chat appointment
+Drupal 8 / 9 Module with Block of Jameda Widget for video chat appointment calendar
 
 ## CONTENTS OF THIS FILE
 ---------------------
