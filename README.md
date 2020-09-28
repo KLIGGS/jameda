@@ -1,5 +1,5 @@
-# jameda
-Drupal 8 / 9 Module with Jameda Widget
+# Jameda Drupal Block Module Videochat
+Drupal 8 / 9 Module with Jameda Widget for video chat appointment
 
 ## CONTENTS OF THIS FILE
 ---------------------
@@ -12,7 +12,7 @@ Drupal 8 / 9 Module with Jameda Widget
 
 ## INTRODUCTION
 ------------
-The Jameda module provides integration of API Script and places external url to nodes.
+The Jameda module provides simple block with external API Script from jameda.de to enable calendar for video chat appointment
 
 ## REQUIREMENTS
 ------------
@@ -26,8 +26,10 @@ This module requires none.
 
 ## CONFIGURATION
 -------------
- * Configure the Sharethis Module settings in
+ * Enter API Key and API Url in the Jameda Module settings
    Administration » Configuration » Services » Jameda:
+ * Place Block the block to your layout
+   Administration  » Blocklayout  » Jameda
 
 ## KNOWN ISSUES
 ------------
