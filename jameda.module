@@ -1,0 +1,19 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_help().
+ */
+function jameda_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.jameda':
+    case 'jameda.settings_form':
+      return t('<a href=":url">Jameda API Version 1 URL</a> Video Chat API Integration Script. You need to apply for this service by registration at jameda.de medical rating website.', [':url' => 'https://www.jameda.de/api/otb-widget/']);
+  }
+}
+
+
+
+

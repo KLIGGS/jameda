@@ -1,0 +1,8 @@
+name: Jameda 1.1
+type: module
+description: Jameda API Script Integration Version 1 for Video Chat.
+core_version_requirement: ^8 || ^9
+php: 7.2
+dependencies:
+  - drupal:block
+  - drupal:node

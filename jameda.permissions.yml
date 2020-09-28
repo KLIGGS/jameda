@@ -1,0 +1,4 @@
+administer jameda:
+  title: 'Administer Jameda Integration'
+  description: 'Change the settings for how Integration behaves on the site.'
+  restrict access: TRUE

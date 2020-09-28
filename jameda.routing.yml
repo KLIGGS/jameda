@@ -1,0 +1,7 @@
+jameda.settings_form:
+  path: 'admin/config/services/jameda'
+  defaults:
+    _form: '\Drupal\jameda\Form\JamedaSettingsForm'
+    _title: 'Jameda Video Chat'
+  requirements:
+    _permission: 'administer jameda'

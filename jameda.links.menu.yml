@@ -1,0 +1,5 @@
+jameda.config_form:
+  route_name: jameda.settings_form
+  title: 'Jameda Video Chat'
+  description: 'Jameda Video Chat Integration.'
+  parent: system.admin_config_services
